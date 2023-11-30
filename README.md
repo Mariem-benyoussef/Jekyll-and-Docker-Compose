@@ -43,13 +43,14 @@ And then to run the Jekyll site in a container:
 ```
 docker run -p 4000:4000 myjekyllimage:latest
 ```
-![Docker Image](https://github.com/Mariem-benyoussef/Jekyll-and-Docker-Compose.git/main/images/docker.png)
+![Docker Image](https://github.com/Mariem-benyoussef/Jekyll-and-Docker-Compose/raw/main/images/docker.png)
 
-![Building](https://github.com/Mariem-benyoussef/Jekyll-and-Docker-Compose/images/build.png)
+![Building](https://github.com/Mariem-benyoussef/Jekyll-and-Docker-Compose/raw/main/images/build.png)
 
-![Running](https://github.com/Mariem-benyoussef/Jekyll-and-Docker-Compose/images/run.png)
+![Running](https://github.com/Mariem-benyoussef/Jekyll-and-Docker-Compose/raw/main/images/run.png)
 
-![The Website](https://github.com/Mariem-benyoussef/Jekyll-and-Docker-Compose/images/website.png)
+![The Website](https://github.com/Mariem-benyoussef/Jekyll-and-Docker-Compose/raw/main/images/website.png)
+
 
 
 
