@@ -33,6 +33,26 @@ docker-compose down
 
 When you are ready to publish, simply push your project to Github or whatever you choose to host your site.
 
+To create a Dockerfile for a Jekyll project, you'll need to set up an environment that includes Ruby, Jekyll, and any other dependencies your project requires. 
+
+To build the Docker image, navigate to the directory containing your Dockerfile and run:
+```
+docker build -t myjekyllimage:latest .
+```
+And then to run the Jekyll site in a container:
+```
+docker run -p 4000:4000 myjekyllimage:latest
+```
+![Docker Image](C:\Users\Mariem\Pictures\Screenshots\Docker)
+
+![building](C:\Users\Mariem\Pictures\Screenshots\build)
+![running](C:\Users\Mariem\Pictures\Screenshots\run)
+
+
+![The website](C:\Users\Mariem\Pictures\Screenshots\website)
+
+
+
 #### Existing Project or Start from Scratch
 
 Adding Docker Compose to an existing project or starting from scratch is easy.  Create a filed called 'docker-compose.yml' in the root.  See example file for the contents you should add: [Sample docker-compose.yml](https://github.com/joelt11753/Jekyll-and-Docker-Compose/blob/master/docker-compose.yml)
